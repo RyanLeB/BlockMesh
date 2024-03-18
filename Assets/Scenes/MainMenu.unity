@@ -515,6 +515,47 @@ PrefabInstance:
       propertyPath: m_text
       value: Ryan LeBlanc
       objectReference: {fileID: 0}
+    - target: {fileID: 3556939537891395869, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ee0b8841eec6b644aac3b2eebf079eb,
+        type: 3}
+    - target: {fileID: 3608068530149385970, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: images.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608068530149385970, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: images.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 68746dee655ab72458b4b1b911895d83,
+        type: 3}
+    - target: {fileID: 3608068530149385970, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: images.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 36e9ed2818be1a84d96444c43b0ea3be,
+        type: 3}
+    - target: {fileID: 3608068530149385970, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: images.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 256bcd7f66a8a0b4db2e3043dc2e1042,
+        type: 3}
+    - target: {fileID: 3608068530149385970, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: images.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6ad7f683013254543b1af740f29972cc,
+        type: 3}
+    - target: {fileID: 3608068530149385970, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: images.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ee0b8841eec6b644aac3b2eebf079eb,
+        type: 3}
     - target: {fileID: 4174535894395305454, guid: 32d592d6c97ad6d46b305107e62d4aee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -564,6 +605,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600530687292521614, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6578302502789273310, guid: 32d592d6c97ad6d46b305107e62d4aee,
         type: 3}

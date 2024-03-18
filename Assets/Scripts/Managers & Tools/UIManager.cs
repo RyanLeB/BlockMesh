@@ -16,9 +16,10 @@ public class UIManager : MonoBehaviour
 
     public void UIMainMenu()
     {
-        MainMenuUI.SetActive(true);        
+        MainMenuUI.SetActive(true);  
         pausedUI.SetActive(false);
         gameEndUI.SetActive(false);
+        
     }
 
     public void UIGameplay()

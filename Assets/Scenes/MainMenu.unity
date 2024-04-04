@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -515,6 +515,26 @@ PrefabInstance:
       propertyPath: m_text
       value: Ryan LeBlanc
       objectReference: {fileID: 0}
+    - target: {fileID: 3062724186553635753, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: runSpeed
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062724186553635753, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: walkSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062724186553635753, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: crouchSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3358452819960039970, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3556939537891395869, guid: 32d592d6c97ad6d46b305107e62d4aee,
         type: 3}
       propertyPath: m_Sprite
@@ -556,6 +576,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0ee0b8841eec6b644aac3b2eebf079eb,
         type: 3}
+    - target: {fileID: 3805208510189070522, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4174535894395305454, guid: 32d592d6c97ad6d46b305107e62d4aee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -611,10 +636,35 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4874795573637096167, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874795573637096167, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874795573637096167, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874795573637096167, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.1509434
+      objectReference: {fileID: 0}
     - target: {fileID: 6578302502789273310, guid: 32d592d6c97ad6d46b305107e62d4aee,
         type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 9147457390299288725, guid: 32d592d6c97ad6d46b305107e62d4aee,
+        type: 3}
+      propertyPath: m_text
+      value: 'By: Ryan LeBlanc'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
